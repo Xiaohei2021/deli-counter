@@ -1,0 +1,22 @@
+
+[1mFrom:[0m /home/leon/Development/code/deli-counter/deli_counter.rb:10 Object#line:
+
+     [1;34m6[0m: [32mdef[0m [1;34mline[0m (katz_deli)
+     [1;34m7[0m: 
+     [1;34m8[0m:    
+     [1;34m9[0m:     katz_deli.each_with_index {|client_name, index| puts [31m[1;31m"[0m[31mThe line is currently: #{index+1}[0m[31m. #{client_name}[0m[31m[1;31m"[0m[31m[0m}
+ => [1;34m10[0m: binding.pry
+    [1;34m11[0m:     [1;34m# if katz_deli.size === 0[0m
+    [1;34m12[0m:     [1;34m#         puts "The line is currently empty."[0m
+    [1;34m13[0m:     [1;34m# if katz_deli.length > 0  [0m
+    [1;34m14[0m:     [1;34m#     katz_deli.each_with_index {|client_name, index| puts "The line is currently: #{index+1}. #{client_name}"}[0m
+    [1;34m15[0m:         [1;34m# i = 0[0m
+    [1;34m16[0m:         [1;34m# while i < katz_deli.size   [0m
+    [1;34m17[0m:         [1;34m#     katz_deli.each_with_index {|client_name, index| puts "The line is currently: #{index+1}. #{client_name}"}[0m
+    [1;34m18[0m:         [1;34m#     puts "The line is currently: #{katz_deli.each_with_index(katz_deli)} "[0m
+    [1;34m19[0m:         [1;34m#    i += 1 [0m
+    [1;34m20[0m: 
+    [1;34m21[0m:         [1;34m# end[0m
+    [1;34m22[0m: 
+    [1;34m23[0m: [32mend[0m
+
